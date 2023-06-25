@@ -139,9 +139,9 @@ public class JFLogin extends javax.swing.JFrame {
     private void jBCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBCancelarActionPerformed
         System.exit(0);
     }//GEN-LAST:event_jBCancelarActionPerformed
-
+//método que conecta a la base de datos en netbeans, y confirma el ingreso
     private void jBAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAceptarActionPerformed
-        if((this.jTFUsuario.getText().equals("Leandro")||(this.jTFUsuario.getText().equals("Michael")||(this.jTFUsuario.getText().equals("Anthony")||(this.jTFUsuario.getText().equals("elias")))))
+        if((this.jTFUsuario.getText().equals("Leandro")||(this.jTFUsuario.getText().equals("Michael")||(this.jTFUsuario.getText().equals("Anthony")||(this.jTFUsuario.getText().equals("Elias")))))
             &&(Arrays.equals(this.jPFContraseña.getPassword(),new char[]{'1','2','3'}))){
             JFEscritorio desktop = new JFEscritorio();
             ConexionSQL conexion = new ConexionSQL();
