@@ -139,7 +139,7 @@ public class JFLogin extends javax.swing.JFrame {
     private void jBCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBCancelarActionPerformed
         System.exit(0);
     }//GEN-LAST:event_jBCancelarActionPerformed
-
+//método para conectarse a la base de datos a través del login
     private void jBAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAceptarActionPerformed
         if((this.jTFUsuario.getText().equals("Leandro")||(this.jTFUsuario.getText().equals("Michael")||(this.jTFUsuario.getText().equals("Anthony")||(this.jTFUsuario.getText().equals("elias")))))
             &&(Arrays.equals(this.jPFContraseña.getPassword(),new char[]{'1','2','3'}))){
